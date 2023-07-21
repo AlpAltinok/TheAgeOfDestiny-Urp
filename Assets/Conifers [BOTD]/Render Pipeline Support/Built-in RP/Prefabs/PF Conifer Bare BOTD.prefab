@@ -29,7 +29,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 4534264641828652}
   m_RootOrder: 1
@@ -53,12 +56,18 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< Updated upstream
   m_StaticShadowCaster: 0
+=======
+>>>>>>> Stashed changes
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+<<<<<<< Updated upstream
   m_RayTraceProcedural: 0
+=======
+>>>>>>> Stashed changes
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -84,7 +93,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< Updated upstream
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!193 &193712119161921956
 Tree:
   m_ObjectHideFlags: 0
@@ -123,7 +135,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 4534264641828652}
   m_RootOrder: 0
@@ -147,16 +162,26 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< Updated upstream
   m_StaticShadowCaster: 0
+=======
+>>>>>>> Stashed changes
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+<<<<<<< Updated upstream
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: e7a6dc395b9973d4b860ad938497c10a, type: 2}
+=======
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a7e78992c7c5347a29bb4ad9b987be59, type: 2}
+>>>>>>> Stashed changes
   - {fileID: 2100000, guid: 086b89f98297d43a4ae1f80ebc88e938, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -178,7 +203,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< Updated upstream
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!193 &193888167281353914
 Tree:
   m_ObjectHideFlags: 0
@@ -215,7 +243,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 4534264641828652}
   m_RootOrder: 2
@@ -231,12 +262,18 @@ BillboardRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+<<<<<<< Updated upstream
   m_StaticShadowCaster: 0
+=======
+>>>>>>> Stashed changes
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+<<<<<<< Updated upstream
   m_RayTraceProcedural: 0
+=======
+>>>>>>> Stashed changes
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -290,7 +327,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> Stashed changes
   m_Children:
   - {fileID: 4657980456482902}
   - {fileID: 4033964170994324}
@@ -333,6 +373,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743353957770956}
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -344,6 +385,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_IsTrigger: 0
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_Radius: 0.25
   m_Height: 6
   m_Direction: 1

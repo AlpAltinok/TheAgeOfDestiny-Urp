@@ -8,6 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M Conifer Bark Array BODT
+<<<<<<< Updated upstream
   m_Shader: {fileID: 4800000, guid: 5ec81c81908db34429b4f6ddecadd3bd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -17,16 +18,35 @@ Material:
   m_InvalidKeywords:
   - BACKFACE_NORMAL_MODE_MIRROR
   - _WINDQUALITY_FASTEST
+=======
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+>>>>>>> Stashed changes
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
+<<<<<<< Updated upstream
   stringTagMap: {}
+=======
+  stringTagMap:
+    RenderType: Opaque
+>>>>>>> Stashed changes
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+<<<<<<< Updated upstream
+=======
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 802f5539a44734bfcacbe5243d44edf1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+>>>>>>> Stashed changes
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,10 +79,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: 37fe0b5bbca93450593b8790186bf777, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< Updated upstream
     - _DetailTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> Stashed changes
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -72,7 +95,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: d7e1060759db04260bbeb12bc11664bd, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 802f5539a44734bfcacbe5243d44edf1, type: 3}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexArray:
@@ -91,6 +118,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< Updated upstream
+=======
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+>>>>>>> Stashed changes
     - _SubsurfaceTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -116,6 +150,7 @@ Material:
     - BACKFACE_NORMAL_MODE: 1
     - EFFECT_BILLBOARD: 0
     - EFFECT_EXTRA_TEX: 1
+<<<<<<< Updated upstream
     - _AlphaClipThreshold: 0.33
     - _BUILTIN_QueueControl: -1
     - _BUILTIN_QueueOffset: 0
@@ -123,18 +158,41 @@ Material:
     - _BillboardShadowFade: 0.5
     - _BranchWind: 0
     - _BumpScale: 1
+=======
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.33
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BranchWind: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+>>>>>>> Stashed changes
     - _ColorContrast: 1
     - _ColorMultiplier: 1
     - _Cull: 2
     - _Cutoff: 0
     - _DebugBending: 0
     - _DebugMode: 4
+<<<<<<< Updated upstream
     - _DetailMode: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EdgeFlutterInfluence: 0.25
     - _EnableAdvancedEdgeBending: 0
     - _EnableLeafTurbulence: 0
+=======
+    - _DetailAlbedoMapScale: 1
+    - _DetailMode: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EdgeFlutterInfluence: 0.25
+    - _EnableAdvancedEdgeBending: 0
+    - _EnableLeafTurbulence: 0
+    - _EnvironmentReflections: 1
+>>>>>>> Stashed changes
     - _FadeOutWind: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -145,7 +203,11 @@ Material:
     - _LeafTumbling: 0
     - _LeafTurbulence: 0.2
     - _MainWind: 0
+<<<<<<< Updated upstream
     - _Metallic: 0
+=======
+    - _Metallic: 0.094
+>>>>>>> Stashed changes
     - _Mode: 0
     - _NormalLerp: 1
     - _NormalMapKwToggle: 1
@@ -154,35 +216,66 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
+<<<<<<< Updated upstream
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SubsurfaceIndirect: 0.25
     - _SubsurfaceKwToggle: 0
+=======
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.238
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _Surface: 0
+>>>>>>> Stashed changes
     - _SwapUVS: 0
     - _Tangents: 0
     - _TimeOffset: 0.25
     - _TranslucencyStrength: 0.5
     - _TumbleFrequency: 1
     - _TumbleStrength: 0.1
+<<<<<<< Updated upstream
     - _TwoSided: 2
+=======
+>>>>>>> Stashed changes
     - _UVSec: 0
     - _UseArrays: 1
     - _UseDetails: 0
     - _WINDQUALITY: 4
     - _WindQuality: 1
+<<<<<<< Updated upstream
+=======
+    - _WorkflowMode: 1
+>>>>>>> Stashed changes
     - _ZWrite: 1
     m_Colors:
     - _AdvancedEdgeBending: {r: 0.1, g: 5, b: 0, a: 0}
     - _AverageCol: {r: 1, g: 1, b: 1, a: 0.5}
+<<<<<<< Updated upstream
+=======
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
     - _BaseWindMultipliers: {r: 0.6, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 0, g: 0.9, b: 0.8255172, a: 0.1}
+<<<<<<< Updated upstream
     - _HueVariationColor: {r: 0.31132078, g: 0.29685012, b: 0.14508721, a: 0.2}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8078211814987005869
+=======
+    - _HueVariationColor: {r: 0.8490566, g: 0.6276517, b: 0.40450338, a: 0.2}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &9121098452941968922
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
