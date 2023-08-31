@@ -4,17 +4,37 @@ using UnityEngine.VFX;
 
 public class Portal01Script : MonoBehaviour
 {
-    VisualEffect VFXportal01;
+    public VisualEffect[] VFXportal01;
+  //  VisualEffect VFXportal01;
 
     bool activePortal = false;       // Portal aktif et yada devre dýsý yap
     float lifeTimeRate = 0.050f;     // portal aktif edilirken  ve kapalýrken  yavasca devreye sok
-                                     // float limitCoroutine = 1f;       // limit  0 ve 1 arasi deger gelince Coroutine devre dýsý yap     0 portal kapalýrken | 1 devreye sokarken alýr degeri
+
+    private float ýnSpeed = 2f;
     public bool stop = false;    // Coroutine While durdur
     // Start is called before the first frame update
     void Start()
     {
-        VFXportal01 = GetComponent<VisualEffect>();
+      //  VFXportal01 = GetComponent<VisualEffect>();
     }
+
+    // VFX play baslatmak 
+    private void VfxEffectsPlay(VisualEffect[] effects)
+    {
+        foreach (var item in effects)
+        {
+            item.Play();
+        }
+
+    }
+    private void VfxEffectActive(VisualEffect[] effects)
+    {
+        foreach (var item in effects)
+        {
+            item.SetBool("FirstActive", activePortal);
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -23,8 +43,8 @@ public class Portal01Script : MonoBehaviour
         {
             stop = false;
             activePortal = true;
-            VFXportal01.Play();
-
+            //  VFXportal01.Play();
+            VfxEffectsPlay(VFXportal01); // vfx play calýstýr
             StartCoroutine(PortalState());
         }
         else if (Input.GetKeyDown(KeyCode.Q)/* && activePortal*/)
@@ -33,18 +53,20 @@ public class Portal01Script : MonoBehaviour
             activePortal = false;
             StartCoroutine(PortalState());
         }
-        VFXportal01.SetBool("FirstTrailActive", activePortal);
+        VfxEffectActive(VFXportal01);
+      // VFXportal01.SetBool("FirstActive", activePortal);
     }
     IEnumerator PortalState()
     {
-        float time = VFXportal01.GetFloat("LifeTime"); // Portal Effectin ic kýsmýnýn sefaflýk degeri zaman göre art veya azal
-        VFXportal01.SetBool("Active", false); // baslangýc effect devreye girsin  etrafa yayýlan parcacýk  Name -> (VFX Portal Particle ) 
+        float time = VFXportal01[0].GetFloat("LifeTime"); // Portal Effectin ic kýsmýnýn sefaflýk degeri zaman göre art veya azal
+        VFXportal01[0].SetBool("Active", false); // baslangýc effect devreye girsin  etrafa yayýlan parcacýk  Name -> (VFX Portal Particle ) 
         bool resultLimit; // sefaflýk degeri artarken true | azalýrken false calýsýr  
 
 
 
         while (!stop)
         {
+            ýnSpeed = activePortal == true ? 2 : 5;
             resultLimit = activePortal == true ? time >= 1f : time <= 0f; // active edilirse 1  | devre dýsý 0 degeri alýr
             if (resultLimit)
             {
@@ -54,7 +76,9 @@ public class Portal01Script : MonoBehaviour
             }
 
             time += activePortal == true ? lifeTimeRate : -lifeTimeRate; // portal active iken ++ | devre dýsý iken -- deger sayacý 
-            VFXportal01.SetFloat("LifeTime", time);         // time degeri göre  sefaflýk degerleri  gösterir yada kapaltýr
+
+            VFXportal01[0].SetFloat("LifeTime", time);         // time degeri göre  sefaflýk degerleri  gösterir yada kapaltýr
+            VFXportal01[0].SetFloat("InSpeed", ýnSpeed);
             yield return new WaitForSeconds(lifeTimeRate);
 
         }
